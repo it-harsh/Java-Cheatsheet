@@ -91,7 +91,7 @@ c = 1111 1110
 | `~`   |Complement (bitwise inversion) | `~a` = `1100 0011 (-61 in 2's complement)` |
 | `<<`  |Left shift                     | `a << 2` = `1111 0000 (-16 in 2's complement)` |
 | `>>`  |Arithmetic shift right         | `c >> 2` = `1111 1111 (-1)` |
-| `>>>` |Logical shift right (zero-fill)| `c >>> 2` = `0111 1111 (127)` |
+| `>>>` |Logical shift right (zero-fill)| `c >>> 2` = `0011 1111 (63)` |
 
 ### Useful Tricks
 - Note that in the following examples, x, 0, and 1 refer to a single bit, not a multi-bit integer
